@@ -13,10 +13,27 @@ public class CalEngine {
 		System.out.print("Test=");
 		System.out.println(eq.getResult());*/
 		
+		String[] statements ={
+				"divide 100.0 50.0",
+				"add 25.0 92.0",
+				"subtract 225.0 17.0",
+				"multiply 11.0 3.0"
+		};
+		
+		CalculateHelper helper = new CalculateHelper();
+		for(String statement: statements)
+		{
+			helper.process(statement);
+			System.out.println(helper);
+		}
 		
 		
 		
-		ClassEquatio[] eq = new ClassEquatio[4];
+		
+		
+		
+		
+	/*	ClassEquatio[] eq = new ClassEquatio[4];
 		eq[0]= new ClassEquatio('d', 100.0d, 50.0d);
 		eq[1]=new ClassEquatio('a', 25.0d, 92.0d );
 		eq[2]=new ClassEquatio( 's',225.0d, 17.0d);
@@ -26,7 +43,7 @@ public class CalEngine {
 			eqs.exceute();
 			System.out.print("result = :");
 			System.out.println(eqs.getResult());
-		}
+		}*/
 		
 		
 		
@@ -75,12 +92,12 @@ public class CalEngine {
 		};
 		
 		
-		for(CalculateBase calculator: calculators)
+		/*for(CalculateBase calculator: calculators)
 		{
 			calculator.calculate();
 			System.out.print("result=");
 			System.out.println(calculator.getResult());
-		}
+		}*/
 		
 		
 		
