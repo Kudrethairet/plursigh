@@ -1,4 +1,4 @@
-package javaFun;
+package com.plurasight.calcengine;
 
 public class Divider extends CalculateBase {
  

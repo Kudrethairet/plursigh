@@ -1,4 +1,13 @@
-package javaFun;
+package com.plurasight.myApp;
+
+import com.plurasight.calcengine.Adder;
+import com.plurasight.calcengine.CalculateBase;
+import com.plurasight.calcengine.CalculateHelper;
+import com.plurasight.calcengine.ClassEquatio;
+import com.plurasight.calcengine.Divider;
+import com.plurasight.calcengine.InvalidStatementException;
+import com.plurasight.calcengine.Multiplier;
+import com.plurasight.calcengine.Subtracter;
 
 public class CalEngine {
 
